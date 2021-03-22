@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
-class App extends Component () {
+import '../common/styles/style.css';
+
+class App extends Component {
   render () {
     return (
       <>
+        <h1>Hello world!</h1>
       </>
     )
   }
