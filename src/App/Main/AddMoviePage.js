@@ -12,7 +12,7 @@ const AddMoviePage = ({
     const renderMessage = () => {
         return (
             <div className="main__add-movie-page__message">
-                <p>Thanks for adding a new movie. You will find it in <Link to="/" onClick={scrollUp}>movies list page</Link>. If needed you can add as much, as you want. Try it up!</p>
+                <p>Thanks for adding a new movie. You will find it in <Link to="/elitex-test-task/" onClick={scrollUp}>movies list page</Link>. If needed you can add as much, as you want. Try it up!</p>
             </div>
         )
     }

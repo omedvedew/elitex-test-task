@@ -13,8 +13,8 @@ const Main = ({
 }) => {
     return (
         <main className="main">
-            <Route path="/" exact component={MoviesList}/>
-            <Route path="/add-movie-page" render={() => 
+            <Route path="/elitex-test-task" exact component={MoviesList}/>
+            <Route path="/elitex-test-task/add-movie-page" render={() => 
                 <AddMoviePage
                     newMovie={newMovie}
                     handleNewMovieTitle={handleNewMovieTitle}

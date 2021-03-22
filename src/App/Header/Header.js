@@ -11,7 +11,7 @@ const Header = ({
             <Logo
                 scrollUp={scrollUp}
             />
-            <Link onClick={scrollUp} to="/add-movie-page" className="header__add-btn">Add new</Link>
+            <Link onClick={scrollUp} to="/elitex-test-task/add-movie-page" className="header__add-btn">Add new</Link>
         </header>
     )
 };
