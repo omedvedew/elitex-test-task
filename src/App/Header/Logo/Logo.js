@@ -5,7 +5,7 @@ const Logo = ({
     scrollUp,
 }) => {
     return (
-        <Link onClick={scrollUp} to="/elitex-test-task/" className="header__logo" style={{backgroundImage: 'url(/images/movies-lib-logo.png)'}}></Link>   
+        <Link onClick={scrollUp} to="/elitex-test-task/" className="header__logo" style={{backgroundImage: 'url(/elitex-test-task/images/movies-lib-logo.png)'}}></Link>   
     )
 };
 

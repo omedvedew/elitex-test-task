@@ -28,7 +28,7 @@ MoviesListItem.propTypes = {
 
 MoviesListItem.defaultProps = {
     title: 'No movie title',
-    image: '/images/movies-lib-logo.png',
+    image: '/elitex-test-task/images/movies-lib-logo.png',
     description: 'No description',
 };
 
