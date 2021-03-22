@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/elitex-test-task/static/css/main.05ddb02c.chunk.css",
+    "main.js": "/elitex-test-task/static/js/main.88e90b74.chunk.js",
+    "main.js.map": "/elitex-test-task/static/js/main.88e90b74.chunk.js.map",
+    "runtime-main.js": "/elitex-test-task/static/js/runtime-main.c95f90b6.js",
+    "runtime-main.js.map": "/elitex-test-task/static/js/runtime-main.c95f90b6.js.map",
+    "static/js/2.96db49dc.chunk.js": "/elitex-test-task/static/js/2.96db49dc.chunk.js",
+    "static/js/2.96db49dc.chunk.js.map": "/elitex-test-task/static/js/2.96db49dc.chunk.js.map",
+    "index.html": "/elitex-test-task/index.html",
+    "static/css/main.05ddb02c.chunk.css.map": "/elitex-test-task/static/css/main.05ddb02c.chunk.css.map",
+    "static/js/2.96db49dc.chunk.js.LICENSE.txt": "/elitex-test-task/static/js/2.96db49dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c95f90b6.js",
+    "static/js/2.96db49dc.chunk.js",
+    "static/css/main.05ddb02c.chunk.css",
+    "static/js/main.88e90b74.chunk.js"
+  ]
+}
