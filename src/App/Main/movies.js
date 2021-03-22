@@ -2,8 +2,8 @@ const movies = [
     {
         id: 1,
         title: 'Lord of the Rings: The Fellowship of the Ring',
-        // description: 'First part of famous trilogy "The Lord Of The Rings"',
-        // image: "",
+        description: 'First part of famous trilogy "The Lord Of The Rings"',
+        image: '/elitex-test-task/images/fellowship.jpg',
     },
     {
         id: 2,
