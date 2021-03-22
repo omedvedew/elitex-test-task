@@ -13,7 +13,7 @@ class MoviesListItem extends Component {
         return (
             <>
                 <h2 className="m-m-i_title">{title}</h2>
-                <div className="m-m-i_image" style={{backgroundImage: `url(./images/${image})`}}></div>
+                <div className="m-m-i_image" style={{backgroundImage: `url(${image})`}}></div>
                 <p className="m-m-i_description">{description}</p>
             </>
         )
@@ -28,7 +28,7 @@ MoviesListItem.propTypes = {
 
 MoviesListItem.defaultProps = {
     title: 'No movie title',
-    image: 'movies-lib-logo.png',
+    image: './images/movies-lib-logo.png',
     description: 'No description',
 };
 

@@ -13,6 +13,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
     left: 0;
@@ -27,6 +28,9 @@
         background-position: center;
         margin-left: 100px;
         transition: all 0.3s ease-in-out;
+        @media (max-width: 767px) {
+            margin-left: 25px;
+        }
     }
     .header__logo:hover {
         transition: all 0.3s ease-in-out;
@@ -42,11 +46,15 @@
         font-size: 18px;
         font-weight: bold;
         text-transform: uppercase;
+        text-decoration: none;
         margin-right: 100px;
         background-color: transparent;
         border: 2px solid green;
         color: green;
         transition: all 0.3s ease-in-out;
+        @media (max-width: 767px) {
+            margin-right: 25px;
+        }
     }
     .header__add-btn:hover {
         background-color: #40B7D1;
@@ -62,15 +70,27 @@
     padding: 100px 70px;
     grid-template-rows: auto;
     grid-template-columns: 100%;
+    @media (max-width: 767px) {
+        padding: 100px 15px;
+    }
 
     .main__movies-list {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 25% 25% 25% 25%;
+        @media (max-width: 1439px) {
+            grid-template-columns: 33.3% 33.3% 33.3%;
+        }
+        @media (max-width: 1023px) {
+            grid-template-columns: 50% 50%;
+        }
+        @media (max-width: 767px) {
+            grid-template-columns: 100%;
+        }
 
         .main__movies-list__item {
             display: grid;
-            grid-template-rows: 80px 300px auto;
+            grid-template-rows: 80px 350px auto;
             grid-template-columns: 100%;
             padding: 15px;
             margin: 15px;
@@ -96,6 +116,103 @@
             .m-m-i_description {
                 color: darkgreen;
                 margin-top: 15px;
+            }
+        }
+    }
+
+    .main__add-movie-page {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+
+        .main__add-movie-page__form {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 100%;
+            justify-content: start;
+            align-items: center;
+
+            .m-a-f_title {
+                margin-bottom: 25px;
+            }
+
+            .m-a-f__input-box {
+                display: grid;
+                height: 50px;
+                grid-template-columns: 100%;
+                grid-template-rows: auto auto;
+                margin-bottom: 30px;
+
+                .m-a-f__input-box_input {
+                    width: 200px;
+                    padding-left: 5px;
+                    background-color: transparent;
+                    color: black;
+                    border: 1px solid black;
+                    border-radius: 0px;
+                    transition: all 0.3s ease-in-out;
+                }
+                .m-a-f__input-box_input:focus {
+                    outline: none;
+                    border: 1px solid blue;
+                    transition: all 0.3s ease-in-out;
+                }
+                .m-a-f__input-box_input:hover {
+                    border: 1px solid darkgreen;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+            .m-a-f__input-box_submit-btn {
+                display: grid;
+                width: fit-content;
+                padding: 5px 10px;
+                background-color: transparent;
+                border: 1px solid black;
+                color: black;
+                font-size: 14px;
+                text-decoration: none;
+                margin-top: 15px;
+                transition: all 0.3s ease-in-out;
+            }
+            .m-a-f__input-box_submit-btn:hover {
+                border: 1px solid darkgreen;
+                background-color: rgba(150, 255, 150, 0.7);
+                color: darkgreen;
+                transform: scale(1.2);
+                transition: all 0.3s ease-in-out;
+            }
+            .m-a-f__input-box_submit-btn:focus {
+                outline: none;
+                border: 1px solid blue;
+                background-color: rgba(150, 150, 255, 0.7);
+                color: blue;
+                transform: scale(1.2);
+                transition: all 0.1s ease-in-out;
+            }
+        }
+
+        .main__add-movie-page__message {
+            display: grid;
+            width: 100%;
+            margin-top: 25px;
+            grid-template-rows: 50px;
+            grid-template-columns: auto auto;
+            justify-content: start;
+            align-items: end;
+
+            p {
+                padding-bottom: 5px;
+            }
+            
+            a {
+                color: black;
+                transition: all 0.3s;
+            }
+            a:hover {
+                transition: all 0.3s;
+                font-size: 21px;
             }
         }
     }
