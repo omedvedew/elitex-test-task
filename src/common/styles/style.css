@@ -5,4 +5,93 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  grid-template-rows: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header .header__logo {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-left: 100px;
+  transition: all 0.3s ease-in-out;
+}
+.header .header__logo:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.header .header__add-btn {
+  display: grid;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 100px;
+  background-color: transparent;
+  border: 2px solid green;
+  color: green;
+  transition: all 0.3s ease-in-out;
+}
+.header .header__add-btn:hover {
+  background-color: #40B7D1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.main {
+  display: grid;
+  margin-top: -70px;
+  padding: 100px 70px;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+}
+.main .main__movies-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.main .main__movies-list .main__movies-list__item {
+  display: grid;
+  grid-template-rows: 80px 200px auto;
+  grid-template-columns: 100%;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid green;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.main .main__movies-list .main__movies-list__item .m-m-i_title {
+  display: grid;
+  align-items: center;
+  color: red;
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.main .main__movies-list .main__movies-list__item .m-m-i_image {
+  border: 1px solid red;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .main__movies-list .main__movies-list__item .m-m-i_description {
+  color: darkgreen;
+  margin-top: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
