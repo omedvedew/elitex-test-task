@@ -9,13 +9,13 @@ const movies = [
         id: 2,
         title: 'Lord of the Rings: The Two Towers',
         description: 'Second part of famous trilogy "The Lord Of The Rings"',
-        image: './images/two-towers.jpg',
+        image: '/images/two-towers.jpg',
     },
     {
         id: 3,
         title: 'Lord of the Rings: Return of the King',
         description: 'Third part of famous trilogy "The Lord Of The Rings"',
-        image: './images/return-of-the-king.jpg',
+        image: '/images/return-of-the-king.jpg',
     },
     {
         id: 4,
@@ -27,7 +27,7 @@ const movies = [
         id: 5,
         title: 'The Da Vinci Code',
         description: 'Second part of famous novel and movie series narrating the story about Robert Langdon`s adventures',
-        image: './images/da-vinci-code.jpg',
+        image: '/images/da-vinci-code.jpg',
     },
 ];
 
